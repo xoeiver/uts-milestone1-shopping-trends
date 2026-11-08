@@ -1,0 +1,7 @@
+model,pr_auc,roc_auc,f1,bal_acc,acc
+Baseline: Dummy most_frequent,0.271,0.5,0.0,0.5,0.729
+Baseline: Dummy stratified,0.28,0.522,0.303,0.522,0.622
+LogReg (balanced),0.681,0.91,0.801,0.908,0.865
+DecisionTree (d=4),0.673,0.909,0.795,0.902,0.862
+RandomForest,0.674,0.906,0.799,0.907,0.864
+HistGradientBoosting,0.688,0.91,0.799,0.907,0.864
